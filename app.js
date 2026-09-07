@@ -30,7 +30,7 @@ const icons={
 function icon(name){return `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${icons[name]||icons.star}</svg>`;}
 function buttonIcon(name,action,label){return `<button class="icon-button" data-action="${action}" aria-label="${label}">${icon(name)}</button>`;}
 function badge(){return `<span class="simulation">${icon('star')} 模拟游戏 · 非医学诊断</span>`;}
-function art(id,cls=''){return `<img class="character ${cls}" src="./assets/${id}.png" alt="卡通${modes[id].name}小伙伴" draggable="false">`;}
+function art(id,cls=''){return `<img class="character ${cls}" src="./assets/${id}.jpg" alt="卡通${modes[id].name}小伙伴" draggable="false">`;}
 function header(title,back='home'){return `<header class="page-header">${buttonIcon('back',back,'返回')}<b>${title}</b><span class="header-spacer"></span></header>`;}
 function home(){
  return `<header class="brand-header"><a class="brand" href="#home" aria-label="肚肚小侦探首页"><span class="brand-mark">${icon('scan')}</span><span>肚肚小侦探<small>好习惯探险队</small></span></a>${buttonIcon('settings','settings','设置')}</header>

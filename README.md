@@ -53,7 +53,7 @@
 
 ## 视觉资产
 
-三个原始插画使用内置 image_gen 生成，保存在 `assets/belly.png`、`assets/hands.png`、`assets/teeth.png`；图标由肚肚插画按图标尺寸导出。完整提示词见 [IMAGE-PROMPTS.md](IMAGE-PROMPTS.md)。音频由 macOS 本地 Tingting 中文语音离线合成。
+运行时使用压缩 JPG 以减少首次下载；完整生成原图仍保留在源码中，不属于运行时缓存依赖。三个原始插画使用内置 image_gen 生成，保存在 `assets/belly.png`、`assets/hands.png`、`assets/teeth.png`；图标由肚肚插画按图标尺寸导出。完整提示词见 [IMAGE-PROMPTS.md](IMAGE-PROMPTS.md)。音频由 macOS 本地 Tingting 中文语音离线合成。
 
 ## 参考
 

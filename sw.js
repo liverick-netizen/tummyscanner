@@ -1,10 +1,10 @@
 'use strict';
 // Bump VERSION whenever any shipped file changes. Keep each installation atomic.
-const VERSION='1.0.1';
+const VERSION='1.0.2';
 const PREFIX=`dudu-${self.registration.scope}-`;
 const CACHE=PREFIX+VERSION;
 const FILES=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest',
- './assets/belly.png','./assets/hands.png','./assets/teeth.png',
+ './assets/belly.jpg','./assets/hands.jpg','./assets/teeth.jpg',
  './assets/icon-180.png','./assets/icon-192.png','./assets/icon-512.png','./assets/icon-maskable.png',
  './assets/belly-voice.wav','./assets/hands-voice.wav','./assets/teeth-voice.wav'];
 const URLS=FILES.map(file=>new URL(file,self.registration.scope).href);
