@@ -1,6 +1,6 @@
 'use strict';
 // Bump VERSION whenever any shipped file changes. Keep each installation atomic.
-const VERSION='1.0.3';
+const VERSION='1.0.4';
 const PREFIX=`dudu-${self.registration.scope}-`;
 const CACHE=PREFIX+VERSION;
 const FILES=['./','./index.html','./styles.css','./app.js','./manifest.webmanifest',
